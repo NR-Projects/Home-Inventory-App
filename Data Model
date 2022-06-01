@@ -1,0 +1,104 @@
+CREATE TABLE UserData
+(
+	UserName VARCHAR(100) NOT NULL,
+    UserEmail VARCHAR(100) UNIQUE NOT NULL,
+    UserPass VARCHAR(100) NOT NULL,
+    UserPrivateUniqueID VARCHAR(100) NOT NULL,
+    UserPublicUniqueID VARCHAR(100) NOT NULL,
+    UserLock BOOLEAN NOT NULL,
+    UserVisibility INT NOT NULL
+);
+
+
+// User //
+
+Data
+- Name
+- Email
+- Password
+- PublicID
+- PrivateID
+- Lock
+- Visibility
+
+Functions
+- Check ID
+- SignUp
+- LogIn
+- Delete User
+- Change Public ID
+- Change Account Lock
+- Change Visibility
+
+
+
+// DataShare_<ID> //
+
+Data
+- Name
+- Email
+- PublicID
+- Auth
+
+Functions
+- Change Auth Permissions
+
+
+
+
+// Category_<ID> //
+
+Data
+- Name
+
+Functions
+- - Check If Allowed
+- Add
+- Remove
+- Read
+- Update
+
+
+
+
+// Item_<ID> //
+
+Data
+- Category
+- Name
+- Count
+- Critical Count
+- Unit
+- Price
+
+Functions
+- - Check If Allowed
+- Add
+- Remove
+- Read
+- Update
+
+
+
+
+// Multi-Edit_<ID> && Multi-Edit-Items_<ID> //
+
+Data
+- Name
+- Desc
+- Multi-Edit-Items
+
+Data
+- Parent Name
+- Name
+- Count
+- Price
+- Unit
+
+Functions
+- - Check If Allowed
+- Add
+- Remove
+- Read
+- Update
+- Use

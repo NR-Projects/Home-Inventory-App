@@ -1,0 +1,15 @@
+File Absolute Path: C:\Users\hp\Documents\Libraries\Keystores\Android_TS.jks
+
+[Keystore Info]
+Password: android-def-ts-app
+
+{KEY}
+Alias: TS-Default-Key
+Password: android-def-ts-app
+[Certificate]
+First and Last Name: Patrick Dionisio
+Organizational Unit: Tuna Salmon
+Organization: None
+City of Locality: Antipolo
+State of Province: Rizal
+Country Code: 63

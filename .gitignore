@@ -1,3 +1,9 @@
+# App Metadata
+.ts_app_info
+
+# API Folder
+/Web API
+
 # Built application files
 *.apk
 *.aar
